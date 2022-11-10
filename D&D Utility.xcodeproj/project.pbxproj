@@ -11,7 +11,6 @@
 		2D540C24291D7A030049B669 /* DNDUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D540C19291D7A030049B669 /* DNDUtility.framework */; };
 		2D540C29291D7A030049B669 /* D_D_UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D540C28291D7A030049B669 /* D_D_UtilityTests.swift */; };
 		2D540C2A291D7A030049B669 /* DNDUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D540C1C291D7A030049B669 /* DNDUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D540C3A291D7B220049B669 /* DNDAssistant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D540C39291D7B220049B669 /* DNDAssistant.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D540C3A291D7B220049B669 /* DNDAssistant.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
