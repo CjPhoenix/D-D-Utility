@@ -49,6 +49,19 @@ public extension Int {
             .exponentFor(0)
         ]
         
+        public func getDescription(_ x: String) -> String {
+            switch self {
+            case .add(let n): return "\(n) + \(x)"
+            case .divideBy(let n): return "\(x) / \(n)"
+            case .divideInto(let n): return "\(n) / \(x)"
+            case .exponent(let n): return "\(x)^\(n)"
+            case .exponentFor(let n): return "\(n)^\(x)"
+            case .multiply(let n): return "\(x)*\(n)"
+            case .subtract(let n): return "\(x)-\(n)"
+            case .subtractFrom(let n): return "\(n)-\(x)"
+            }
+        }
+        
         /// Adds `n` to the value
         /// - Parameter n: The number to add
         case add(_ n: Int)
